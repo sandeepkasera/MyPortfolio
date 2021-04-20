@@ -1,0 +1,289 @@
+	*{
+	margin:0;
+	padding:0;
+	text-align:center;
+	}
+	#header
+	{
+	background-image:url(images/banner.jpg);
+	height:100%;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	}
+
+	.navbar-nav li a
+	{
+		float:right;
+		color:#fff!important;
+	}
+
+	.navbar-brand img{
+		
+	width:38px;
+	margin-left:30px;
+	opacity:0.7;
+	}
+	.navbar-toggler{
+		
+	border: none!important;
+	outline:none!important;
+	}
+	nav .fa-bars{
+		color:#fff!important;
+		font-size:25px;
+		
+	}
+
+	/* ---Welcome TExt-----*/
+	.welcome{
+		padding:50px 100px;
+		margin-top:-140px;
+		background-color:#fff;
+		box-shadow:0 0 20px 7px rgba(0,0,0,0.2);
+	}
+	.welcome .btn-primary{
+		margin-top:20px;
+		padding:10px 30px;
+		border-radius:10px;
+		color:#fff;
+		background-color:#A92FBE;
+		
+	}
+
+	.welcome .btn:focus{
+		box-shadow:none;
+	}
+	.row img {
+		height:400px;
+		width:400px;
+	}
+
+
+
+	#about{
+		
+		padding-top:80px;
+		padding-bottom:80px;
+		
+	}
+
+	#about .col-md-6{
+		padding-top:20px 10px;
+		
+	}
+	#about .col-md-6 {
+	margin:20px auto;	
+	}
+	#about div p{
+		text-align:left;
+	}
+
+	#about h3{
+		margin:20px auto;	
+	}
+	/*----services------*/
+	#services{
+
+	background-color:#efefef;
+	padding-top:80px;
+	padding-bottom:80px;
+	}
+
+	#services .col-md-4{
+		padding:20px;
+		
+	}
+	#services .col-md-4 h4{
+		padding:20px;
+		
+	}#services .col-md-4 img{
+		width:280px;
+		height:280px;
+	}
+	}#services .col-md-4 p{
+		padding:5px;
+		text-align:justify;
+	}
+	#services ul li{
+		text-align:left;
+	}
+
+	/*features*/
+	.img-fluid{
+		opacity:0.8;
+	}
+	.img-fluid:hover {
+	  opacity: 1.0;
+	}
+
+	#features{
+		
+		padding-top:100px;
+		padding-bottom:100px;
+		background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/feature-background.jpg);
+		background-position:center;
+		background-size:cover;
+		background-attachment:fixed;
+		color:#fff;
+		
+	}
+
+	#features .col-md-6{
+		padding:20px;
+	}
+
+	.feature-box{
+		height:120px;
+	}
+	.feature-box feature-left{
+		height:120px;
+		width:20%;
+		float:left;
+	}
+	.feature-box feature-left .fa{
+		padding-top:13px;
+		font-size:50px;
+	}
+
+	.feature-box feature-right {
+		height:120px;
+		width:20%;
+		float:left;
+	}
+
+	.feature-box feature-right .h4{
+		padding-top:10px;
+		padding-left:10px;
+		text-align:left;
+	}
+	.feature-box feature-right p{
+		padding-left:15px;
+		text-align:left;
+	}
+
+	/*----Testimonial-------*/
+	#testimonials{
+		padding-top:100px;
+		padding-bottom:90px;
+	}
+	#testimonials .col-md-3{
+		padding-top:10px;
+		position:relative;
+	}
+	#testimonials img{
+		width:60px;
+		height:60px;
+		border-radius:50%;
+		margin-top:-50px;
+		border:5px solid #fff;
+		margin-bottom:30px;
+		position:relative;
+		left:-45%;
+	}
+
+
+	.review{
+		font-size:16px;
+		padding:10px 10px 10px 10px;
+		border-radius:10px;
+		box-shadow:0px 0px 20px 1px rgba(0,0,0,0.2);	
+	}
+	.review .fa-twitter{
+		color:#013f7e;
+	}
+
+	#testimonials h1{
+		margin-bottom:20px;
+		color:#013f7e;
+	}
+	#testimonials p{
+		padding-bottom:20px;
+	}
+
+	/*--------Subscribe------*/
+	.form-box{
+		background-color:#013f7e; 
+		position:relative;
+		box-shadow:0 0 20px 7px rgba(0,0,0,0.2);
+		min-height:280px;
+		margin-bottom:-200px;	
+	}
+	.form-control{
+	margin:1px;
+	}
+	.subscribe h3{
+		color:#fff;
+		margin:4px;
+		padding:4px;
+	}
+	.input-box{
+	background-color:#fefffe;
+	border-radius:40px;
+	margin:0px 20px 0px 10px;
+	padding:20px 80px 20px 40px;
+	}
+	#subscribe label {
+		font-family:arial;
+		font-weight:bold;
+	}
+	#subscribe .input-group-append{
+	padding-left:50px;
+	margin-left:100px;
+	}
+	#subscribe .input-group-text{
+	background-image:linear-gradient(to right,#1c03b5,#5c8);
+	color:white;
+	border-radius:20px;
+	}
+	#subscribe .container-fluid{
+	width:98%;
+	}
+	
+
+	/*-----------Footer------*/
+	#footer{
+		margin-top:100px;
+		padding:100px 100px 100px 100px;
+		background-color:#efefef;
+		color:#013f7e;
+		
+	}
+	#footer img{
+		width:100px;
+		height:100px;
+		margin-top:25px;
+		margin-bottom:15px;
+	}
+
+	#footer h1{
+		font-size:15px;
+		text-align:left;
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#footer p{
+		font-size:12px;
+		text-align:left;
+	}
+
+	#footer city{
+		margin-left:37px;
+	}
+	#footer .row .fa{
+		padding-right:20px;
+		font-size:15px;
+	}
+	#footer hr{
+		margin-top:10px;
+	}
+
+	#footer .fa-heart-o{
+		color:red;
+		font-size:17px;
+	}
+	#footer .copyright{
+		margin-bottom:-80px;
+		text-align:center;
+		font-size:15px;
+	}
