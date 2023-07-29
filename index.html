@@ -1,460 +1,436 @@
 <! DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Sandeep</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	</head>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<body>
+		<!------------------Header------------->
+		<section id="header">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#"><i class="fa fa-universal-access" aria-hidden="true"></i>San__era</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav ">
+						<li class="nav-item">
+							<a class="nav-link" href="#services">OPINION</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills">SKILLS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#features">FEATURES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#testimonials">KNOW MORE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#footer">CONTACT ME</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</section>
 
-<style>
-	
+		<!-----------------------Welcome Text--------->
+		<Section id="welcome">
+			<div class="container">
+				<div class="welcome text-container wow fadeInUp">
+					<h3>Hello, You are on the page of Sandeep Kumar</h3>
+					<p>Student of Computer Science and Engineering in BBDITM Lucknow</p>
+					<a href="https://twitter.com/SandeepKasera99" class="btn btn-primary btn-lg">Follow</a>
+				</div>
+			</div>
+		</section>
+
+		<!------Resume------->
+		<section id="resume">
+			<div class="container-fluid">
+				<h3>About me</h3>
+				<div class="redetails ">
+					<p>My name is Sandeep Kumar. I am Full Stack Developer.</p>
+				</div>
+				<h3>Education</h3>
+				<div class="row">
+					<div class="col-md-7 redetails">
+						<p>Dr. APJ Abdul Kalam Technical University</p>
+						<p>Bachelor of Technology, major in Computer Science </p>
+
+						<p> Graduation is under process. If you hire me, I would start working after 2022.</p>
+					</div>
+					<div class="col-md-5 d-resume text-center">
+						<a href="https://drive.google.com/file/d/13UHDNIJP6hxnKopLGJXTV92EDTxmFiz2/view?usp=sharing">
+							Download Resume
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!--------Services-------------->
+		<section id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="images/friends.png">
+						<h4> Opinion About Friends</h4>
+						<p>
+						<ul>
+							<li>Don't have many "close friends". </li>
+							<li>The friend is one Who always remember your name.</li>
+							<li>No Matter,How long it has been passed.When you see them Smile Comes on its own.</li>
+						</ul>
+						</p>
+					</div>
+
+					<div class="col-md-4">
+						<img src="images/fitness.jpg">
+						<h4>Fitness Freak</h4>
+						<p>
+						<ul>
+							<li>Fitness plays a much imp role in our life .Atleast Do these Regularly.</li>
+							<li>Pull-ups. You just pull yourself up and down while hanging from a bar.</li>
+							<li>Push-ups.To develop your chest and triceps.</li>
+							<li>Chin-ups.To develop your biceps.</li>
+							<li>Sit-ups. To work your abs.</li>
+							<li>Squats. For your legs.</li>
+						</ul>
+						</p>
+					</div>
+
+					<div class="col-md-4">
+						<img class="facts" src="images/physchological.png">
+						<h4>Some Physchological facts</h4>
+						<p>
+						<ul>
+							<li>To get a good reply, stay silent and hold eye contact, another person will start talking
+								again.</li>
+							<li>If you are subjected to someone’s aggression, deliberately sit next to them. It will go
+								smoother.</li>
+							<li>Ask for favours from others. It indicates that you trust them.</li>
+							<li>Straighten your back keep your head held high.</li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-------------skilss------>
+		<section id="skills">
+			<div class="container-fluid">
+				<h3 class="justify-content-center skill-project-heading">SKILLS</h3>
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">HTML</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">CSS</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">JAVASCRIPT</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">BOOTSTRAP</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">PYTHON</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">MYSQL</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">FLASK</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">DJANGO</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">CORE JAVA</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">MS-OFFICE</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">C</button>
+					</div>
+					<div class="col-md-3 col-sm-4 col-4 skills">
+						<button class="btn-1">MONGODB</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------features------->
+		<Section id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInUp">
+						<img src="images/features.jpg" class="img-fluid">
+					</div>
+
+					<div class="col-md-6 col-sm-6 wow fadeInDown">
+						<div class="feature-box">
+							<div class="feature-left">
+								<i class="fa fa-trophy"></i>
+
+							</div>
+							<div class="feature-right">
+								<h4>Certified Developer</h4>
+								<p>Feel free to reach me to learn something new </p>
+							</div>
+						</div>
+
+						<div class="feature-box">
+							<div class="feature-left">
+								<i class="fa fa-code"></i>
+
+							</div>
+							<div class="feature-right">
+								<h4>Free lancer</h4>
+								<p> Ready to take challenges</p>
+							</div>
+						</div>
+
+						<div class="feature-box">
+							<div class="feature-left">
+								<i class="fa fa-tree"></i>
+
+							</div>
+							<div class="feature-right">
+								<h4>Nature Lover</h4>
+								<p>Plant tree for your new generationss</p>
+							</div>
+						</div>
 
 
-</style>
-
-
-
-</head>
-
-<body>
-<!------------------Header------------->
-<section id="header"> 
-	<nav class="navbar navbar-expand-lg navbar-light">
-	  <a class="navbar-brand" href="#"><i class="fa fa-universal-access" aria-hidden="true"></i>San__era</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
-	  aria-expanded="false" aria-label="Toggle navigation">
-	<i class="fa fa-bars"></i>
-	</button>
-	<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-		<ul class="navbar-nav ">
-		 <li class="nav-item">
-			<a class="nav-link" href="#services">OPINION</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="#skills">SKILLS</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link " href="#features" >FEATURES</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link " href="#testimonials" >KNOW MORE</a>
-		  </li>  
-		  <li class="nav-item">
-			<a class="nav-link " href="#footer" >CONTACT ME</a>
-		  </li>
-		</ul>
-	  </div>
-	</nav>
-</section>
-
-<!-----------------------Welcome Text--------->
-<Section id="welcome">
-	<div class="container">
-	<div class="welcome text-container wow fadeInUp" >
-		<h3>Hello, You are on the page of Sandeep Kumar</h3> 
-		<p>Student of Computer Science and Engineering in BBDITM Lucknow</p>
-		<a href="https://twitter.com/SandeepKasera99" class="btn btn-primary btn-lg">Follow</a>
-	</div>
-	</div>
-</section>
-
-
-
-<!------Resume------->
-<section id="resume">
-	<div  class="container-fluid">
-	<h3>About me</h3>
-	
-	
-	
-	<div class="redetails ">
-	<p>My name is Sandeep Kumar. I am Data Analyst and also interseted in Web Development.</p>
-	</div>
-	<h3>Education</h3>
-	
-		<div class="row">
-
-	<div class="col-md-7 redetails" >
-	<p>Dr. APJ Abdul Kalam Technical University</p>
-	<p>Bachelor of Technology, major in Computer Science </p>
-
-	<p> Graduation is under process. If you hire me, I would start working after 2022.</p>
-		</div>
-			<div class="col-md-5 d-resume text-center">
-			<a href="https://drive.google.com/file/d/16TuB6BnZCAiTvS_vQHXgcSVZYuRJJRxK/view?usp=sharing">Download Resume</a>
-			 
+					</div>
+				</div>
 			</div>
 
-	</div>
-	</div>
-</section>
+		</section>
+		<!--------Projects----------->
 
+		<div class="container-fluid">
+			<h3 class="justify-content-center skill-project-heading">Some Projects</h3>
 
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
 
+						<div class="card">
+							<img src="images/ckloan.jpg" class="card-img-top" alt="Check Eligibility">
+							<div class="card-body">
+								<a href="http://checkloaneligibility.herokuapp.com/" target="_blank">
+									<h5 class="card-title">Loan Prediction Web App</h5>
+								</a>
+								<p class="card-text">Technology Used:</p>
+								<p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
+								<p class="card-text">Back-end: Python (Flask Framework).</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
 
+						<div class="card">
+							<img src="images/fsparkstr.jpg" class="card-img-top" alt="Credit Transfer">
+							<div class="card-body">
+								<a href="https://fundsparkstransfer.herokuapp.com/">
+									<h5 class="card-title">Basic Banking System</h5>
+								</a>
+								<p class="card-text">Technology Used:</p>
+								<p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
+								<p class="card-text">Back-end: Python (Django Framework).</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
 
-
-
-<!--------Services-------------->
-<section id="services">
-	<div class="container">
-	<div class="row">
-	<div class="col-md-4">
-	<img src="images/friends.png">
-	<h4> Opinion About Friends</h4>
-	<p>
-	<ul>
-	<li>Don't have many "close friends". </li>
-	<li>The friend is one Who always remember your name.</li>
-	<li>No Matter,How long it has been passed.When you see them Smile Comes on its own.</li>
-	</ul>
-	</p>
-	</div>
-
-	<div class="col-md-4">
-	<img src="images/fitness.jpg">
-	<h4>Fitness Freak</h4>
-	<p>
-	<ul>
-	<li>Fitness plays a much imp role in our life .Atleast Do these Regularly.</li>
-	<li>Pull-ups. You just pull yourself up and down while hanging from a bar.</li>
-	<li>Push-ups.To develop your chest and triceps.</li>
-	<li>Chin-ups.To develop your biceps.</li>
-	<li>Sit-ups. To work your abs.</li>
-	<li>Squats. For your legs.</li>
-	</ul>
-	</p>
-	</div>
-
-	<div class="col-md-4">
-	<img class="facts" src="images/physchological.png">
-	<h4>Some Physchological facts</h4>
-	<p>
-	<ul>
-	<li>To get a good reply, stay silent and hold eye contact, another person will start talking again.</li>
-	<li>If you are subjected to someone’s aggression, deliberately sit next to them. It will go smoother.</li>
-	<li>Ask for favours from others. It indicates that you trust them.</li>
-	<li>Straighten your back keep your head held high.</li>
-	</ul>
-	</p>
-	</div>
-
-	</div>
-	</div>
-</section>
-
-
-
-	<!-------------skilss------>
-	<section id="skills">
-	<div class="container-fluid">
-	<h3 class="justify-content-center skill-project-heading">SKILLS</h3>
-	<div class="row">
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >HTML</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >CSS</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >JAVASCRIPT</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >BOOTSTRAP</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >PYTHON</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >MYSQL</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >FLASK</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >DJANGO</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >CORE JAVA</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >MS-OFFICE</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >C</button>	
-	</div>
-	<div class="col-md-3 col-sm-4 col-4 skills">
-		<button class="btn-1" >MONGODB</button>	
-	</div>
-	</div>
-	</div>
-	</section>
-	
-
-
-
-	<!----------features------->
-
-<Section id="features">
-	<div class="container">
-	<div class="row" >
-	<div class="col-md-6 col-sm-6 wow fadeInUp">
-	<img src="images/features.jpg" class="img-fluid">
-	</div>
-
-	<div class="col-md-6 col-sm-6 wow fadeInDown">
-	<div class="feature-box">
-	<div class="feature-left">
-	<i class="fa fa-trophy"></i>
-
-	</div>
-	<div class="feature-right">
-	<h4>Certified Developer</h4>
-	<p>Feel free to reach me to learn something new </p>
-	</div>
-	</div>
-
-		<div class="feature-box">
-		<div class="feature-left">
-		<i class="fa fa-code"></i>
-
-		</div>
-		<div class="feature-right">
-		<h4>Free lancer</h4>
-		<p> Ready to take challenges</p>
-		</div>
-		</div>
-
-		<div class="feature-box">
-		<div class="feature-left">
-		<i class="fa fa-tree"></i>
-
-		</div>
-		<div class="feature-right">
-		<h4>Nature Lover</h4>
-		<p>Plant tree for your new generationss</p>
-		</div>
-		</div>
-		
-
-	</div>
-	</div>
-	</div>
-
-</section>
-<!--------Projects----------->
-	
-<div class="container-fluid">
-	<h3 class="justify-content-center skill-project-heading">Some Projects</h3>
-	
-	<div class="container">
-	<div class="row">
-	<div class="col-md-4">
-	
-  <div class="card">
-    <img src="images/ckloan.jpg" class="card-img-top" alt="Check Eligibility">
-    <div class="card-body">
-      <a href= "http://checkloaneligibility.herokuapp.com/" target="_blank"> <h5 class="card-title">Loan Prediction Web App</h5></a>
-      <p class="card-text">Technology Used:</p>
-      <p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
-      <p class="card-text">Back-end: Python (Flask Framework).</p>
-    </div>
-	</div>
-</div>
-	<div class="col-md-4">
-	
-  <div class="card">
-    <img src="images/fsparkstr.jpg" class="card-img-top" alt="Credit Transfer">
-    <div class="card-body">
-     <a href="https://fundsparkstransfer.herokuapp.com/"><h5 class="card-title">Basic Banking System</h5></a>
-	  <p class="card-text">Technology Used:</p>
-      <p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
-      <p class="card-text">Back-end: Python (Django Framework).</p>    </div>
-	</div>
-</div>
-	<div class="col-md-4">
-	
-  <div class="card">
-    <img src="images/cbera.jpg" class="card-img-top" alt="Coding Blog era">
-    <div class="card-body">
-     <a href="https://codingblogera.herokuapp.com/"><h5 class="card-title">Coding Blog era</h5></a>
-	  <p class="card-text">Technology Used:</p>
-      <p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
-      <p class="card-text">Back-end: Python (Django Framework), News API.</p>    </div>
-    </div>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</section>
-<!--------Testimonials------>
-<section id="testimonials">
-	<div class="container">
-	<h1 class="text-center">Join me</h1>
-	<p class="text-center"><strong>Follow me on other platforms</strong>
-		<i class="fa fa-thumbs-up"></i></p> 
-
-	
-	<div class="row">
-	<div class="col-md-3 col-sm-6 col-6">
-<p class="review"><br>Follow me on twitter
-		<i class="fa fa-twitter"></i><br>  <a href="https://twitter.com/SandeepKasera99">#Profile</a></p> 
-
-<img src="images/user1.jpg">
-	
-	</div>
-	
-		<div class="col-md-3 col-sm-6 col-6">
-<p class="review"><br>Follow me on linkedin
-		<i class="fa fa-linkedin"></i><br><a href="https://www.linkedin.com/in/sandeepkasera99/">#Profile</a></p> 
-
-<img src="images/user1.jpg">
-	
-	</div>
-	
-		<div class="col-md-3 col-sm-6 col-6">
-<p class="review"><br>Follow me on instagram
-		<i class="fa fa-instagram"></i><br><a href="https://www.instagram.com/sandeepkasera_/">#Profile</a></p> 
-
-<img src="images/user1.jpg">
-	
-	</div>
-
-	<div class="col-md-3 col-sm-6 col-6">
-<p class="review"><br>Follow me on YourQuote
-		<i class="fa fa-quote-right"></i><br><a href="https://www.yourquote.in/sandeep-kasera-bc1sa/quotes">#Profile</a></p> 
-
-<img src="images/user1.jpg">
-	
-	</div>
-	
-	</div>
-	</div>
-	
-
-</section>
-
-<!---------Subscribe-------->
-<section id="subscribe">
-<div class="container">
-<div class="row">
-
-<div class="col-md-12 subscribe">
-<p>Leave a msg ! Contact me with your precious feedback.</p>
-</div>
-</div>
-</div>
-<div class="container">
-
-<div class="input-box">
-<form name="feedback" method="POST" data-netlify="true">
-<div class="row">
-		<div class="col-md-4 col-sm-4 col-4">
-			<label for="name" class="subslabel" >Name:</label> 
-		</div>
-		<div class="col-md-8 col-sm-8 col-8">
-		<input id="name" type="text" name="name" class="form-control"/>
-		</div>
-			
-			
-		<div class="col-md-4 col-sm-4 col-4">
-			<label for="email"class="subslabel" >Email:</label> 
-		</div>
-				<div class="col-md-8 col-sm-8 col-8">
-		<input id="email" type="text" name="email" required class="form-control"/>
-		</div>
-		
-			
-
-		<div class="col-md-4 col-sm-4 col-4">
-			<label for="msg"class="subslabel" >Your Message:</label> 
-		</div>
-				<div class="col-md-8 col-sm-8 col-8">
-		<textarea id="msg" type="text" name="msg"class="form-control" /></textarea>
-		</div>
-			
-			
-		<div class="col-md-12 col-sm-12 col-12 ">
-
-	<button type="submit" class="input-group-text subsBtn">Send</button>
-	
-	</div>
-			
+						<div class="card">
+							<img src="images/cbera.jpg" class="card-img-top" alt="Coding Blog era">
+							<div class="card-body">
+								<a href="https://codingblogera.herokuapp.com/">
+									<h5 class="card-title">Coding Blog era</h5>
+								</a>
+								<p class="card-text">Technology Used:</p>
+								<p class="card-text">Front-end: HTML, CSS and Bootstrap. </p>
+								<p class="card-text">Back-end: Python (Django Framework), News API.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-	</form>
-</div>
-</div>
-</section>
-<!---------------Footer----------->
-<section id="footer">
-<div class="container">
-<div class="row">
+		</div>
+		</div>
 
 
-<div class="col-md-4 col-sm-4 col-4">
-<h1>Features</h1>
-<p>Certified Developer</p>
-<p>Free lancer</p>
-<p>Academic student</p>
-<p>Ready to explore</p>
-</div>
 
-<div class="col-md-4 col-sm-4 col-4">
-<h1>Quick Contact</h1>
-<p><i class="fa fa-phone-square"></i>+91 7897437142</p> 
-<p><i class="fa fa-address-card"></i><a href="https://sandeepkasera.netlify.app/">Portfolio</a></p> 
-<p><i class="fa fa-home"></i>Lucknow,U.P.</p> 
-<p class="city"><i class="fa fa-university" aria-hidden="true"></i>BBD, Lucknow</p>
-</div>
 
-<div class="col-md-4 col-sm-4 col-4">
-<h1>Follow Me On</h1>
-<p><i class="fa fa-linkedin"></i>linkedin</p> 
-<p><i class="fa fa-instagram"></i>Instagram</p> 
-<p><i class="fa fa-twitter"></i>twitter</p> 
-<p><i class="fa fa-quote-right"></i>YourQuote</p> 
 
-</div>
-</div>
-<hr>
 
-<p class="copyright">Made with<i class="fa fa-heart-o"></i>by Sandeep Kasera</p>
 
-</div>
-</section>
-<!------smooth scroll--->
-<script src="js/smooth-scroll.js"></script>
-<script>
-	var scroll = new SmoothScroll('a[href*="#"]');
-</script>
-<!----------Animate--------->
-<script src="js/wow.min.js"></script>
-<script>
-new WOW().init();
-</script>
 
-</body>
-</html>
+
+
+
+
+
+
+		</section>
+		<!--------Testimonials------>
+		<section id="testimonials">
+			<div class="container">
+				<h1 class="text-center">Join me</h1>
+				<p class="text-center"><strong>Follow me on other platforms</strong>
+					<i class="fa fa-thumbs-up"></i>
+				</p>
+
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-6">
+						<p class="review"><br>Follow me on twitter
+							<i class="fa fa-twitter"></i><br> <a href="https://twitter.com/SandeepKasera99">#Profile</a>
+						</p>
+
+						<img src="images/user1.jpg">
+
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-6">
+						<p class="review"><br>Follow me on linkedin
+							<i class="fa fa-linkedin"></i><br><a
+								href="https://www.linkedin.com/in/sandeepkasera99/">#Profile</a>
+						</p>
+
+						<img src="images/user1.jpg">
+
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-6">
+						<p class="review"><br>Follow me on instagram
+							<i class="fa fa-instagram"></i><br><a
+								href="https://www.instagram.com/sandeepkasera_/">#Profile</a>
+						</p>
+
+						<img src="images/user1.jpg">
+
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-6">
+						<p class="review"><br>Follow me on YourQuote
+							<i class="fa fa-quote-right"></i><br><a
+								href="https://www.yourquote.in/sandeep-kasera-bc1sa/quotes">#Profile</a>
+						</p>
+						<img src="images/user1.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!---------Subscribe-------->
+		<section id="subscribe">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12 subscribe">
+						<p>Leave a msg ! Contact me with your precious feedback.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+
+				<div class="input-box">
+					<form name="feedback" method="POST" data-netlify="true">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-4">
+								<label for="name" class="subslabel">Name:</label>
+							</div>
+							<div class="col-md-8 col-sm-8 col-8">
+								<input id="name" type="text" name="name" class="form-control" />
+							</div>
+
+
+							<div class="col-md-4 col-sm-4 col-4">
+								<label for="email" class="subslabel">Email:</label>
+							</div>
+							<div class="col-md-8 col-sm-8 col-8">
+								<input id="email" type="text" name="email" required class="form-control" />
+							</div>
+							<div class="col-md-4 col-sm-4 col-4">
+								<label for="msg" class="subslabel">Your Message:</label>
+							</div>
+							<div class="col-md-8 col-sm-8 col-8">
+								<textarea id="msg" type="text" name="msg" class="form-control" /></textarea>
+							</div>
+							<div class="col-md-12 col-sm-12 col-12 ">
+
+								<button type="submit" class="input-group-text subsBtn">Send</button>
+
+							</div>
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!---------------Footer----------->
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-4">
+						<h1>Features</h1>
+						<p>Certified Developer</p>
+						<p>Free lancer</p>
+						<p>Academic student</p>
+						<p>Ready to explore</p>
+					</div>
+					<div class="col-md-4 col-sm-4 col-4">
+						<h1>Quick Contact</h1>
+						<p><i class="fa fa-phone-square"></i>+91 7897437142</p>
+						<p><i class="fa fa-address-card"></i><a href="https://sandeepkasera.netlify.app/">Portfolio</a>
+						</p>
+						<p><i class="fa fa-home"></i>Lucknow,U.P.</p>
+						<p class="city"><i class="fa fa-university" aria-hidden="true"></i>BBD, Lucknow</p>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-4">
+						<h1>Follow Me On</h1>
+						<p><i class="fa fa-linkedin"></i>linkedin</p>
+						<p><i class="fa fa-instagram"></i>Instagram</p>
+						<p><i class="fa fa-twitter"></i>twitter</p>
+						<p><i class="fa fa-quote-right"></i>YourQuote</p>
+
+					</div>
+				</div>
+				<hr>
+
+				<p class="copyright">Made with<i class="fa fa-heart-o"></i>by Sandeep Kasera</p>
+
+			</div>
+		</section>
+		<!------smooth scroll--->
+		<script src="js/smooth-scroll.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+		<!----------Animate--------->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+
+	</body>
+
+	</html>
